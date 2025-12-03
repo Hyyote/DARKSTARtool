@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DARKSTARtool</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>DARKSTARtool.Program</StartupObject>
+    
+    <!-- Optimizations -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Regular Tweaks -->
+    <EmbeddedResource Include="Resources\tweaks1.bat" />
+    <EmbeddedResource Include="Resources\tweaks2.bat" />
+    <EmbeddedResource Include="Resources\tweaks3.bat" />
+    <EmbeddedResource Include="Resources\tweaks4.bat" />
+    <EmbeddedResource Include="Resources\tweaks5.bat" />
+    <EmbeddedResource Include="Resources\tweaks6.bat" />
+    <EmbeddedResource Include="Resources\tweaks7.bat" />
+    <EmbeddedResource Include="Resources\tweaks8.bat" />
+    <EmbeddedResource Include="Resources\delete.reg" />
+    <EmbeddedResource Include="Resources\mouse.reg" />
+    <EmbeddedResource Include="Resources\tweaks.reg" />
+    <EmbeddedResource Include="Resources\NETWORK-TWEAKS.ps1" />
+    <EmbeddedResource Include="Resources\USBFlags.ps1" />
+  
+    <!-- Minimal Services -->
+    <EmbeddedResource Include="Resources\MinimalServices.reg" />
+  
+    <!-- Power Saving -->
+    <EmbeddedResource Include="Resources\Disable_powersaving.bat" />
+    <EmbeddedResource Include="Resources\Disable_pnp_powersaving.ps1" />
+  
+    <!-- Power Plans -->
+    <EmbeddedResource Include="Resources\beyond.pow" />
+    <EmbeddedResource Include="Resources\beyondamd.pow" />
+  
+    <!-- A1 Dangerous Tweaks -->
+    <EmbeddedResource Include="Resources\etl.bat" />
+    <EmbeddedResource Include="Resources\etl_oldOneNEW.bat" />
+    <EmbeddedResource Include="Resources\etl2023.bat" />
+    <EmbeddedResource Include="Resources\etl3.bat" />
+    <EmbeddedResource Include="Resources\fix3.reg" />
+    <EmbeddedResource Include="Resources\fix9.bat" />
+    <EmbeddedResource Include="Resources\RENAME.BAT" />
+    <EmbeddedResource Include="Resources\B3NEW.BAT" />
+    <EmbeddedResource Include="Resources\EVENTKIT.bat" />
+    <EmbeddedResource Include="Resources\MACHINE.BAT" />
+    <EmbeddedResource Include="Resources\WININETKIT.BAT" />
+    <EmbeddedResource Include="Resources\wmic.bat" />
+    <EmbeddedResource Include="Resources\WMIETL.BAT" />
+  
+  </ItemGroup>
+
+</Project>
