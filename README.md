@@ -1,6 +1,4 @@
-# 🌟 DARKSTAR - Windows Optimization Tool
-
-**Advanced system optimization and tweaking tool for Windows 10/11**
+# A tool made to apply my tweaks with ease.
 
 ## Quick Start
 
