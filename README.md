@@ -1,4 +1,9 @@
-# A tool made to apply my tweaks with ease.
+# A word of precaution:
+   - Running **Advanced optimization** breaks the start menu, taskbar and task manager<br>
+   - Running **A1 tweaks** causes a sihost.exe error after booting and it might take around a minute to load into Windows.<br>
+   Folders also cannot be accessed normally, so an alternative task manager, Run or NSudo is needed to navigate around the operating system.<br>
+explorer.exe crashes and hangs frequently so it has to be restarted either manually or be terminated while using the programs mentioned above to open files and programs
+
 
 ## Quick Start
 
